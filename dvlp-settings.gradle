@@ -193,6 +193,7 @@ def dependencyMode = (project.gradle.gradleVersion as float) >= 4.1F ? 'api' : '
 //project.dependencies.add(dependencyMode, project(":DLib_UI"))
 //project.dependencies.add(dependencyMode, project(":DService"))
 //project.dependencies.add(dependencyMode, project(":DLib"))
+project.dependencies.add(dependencyMode, "com.openapi.android:testlibbase:1.0.0")
 project.dependencies.add(dependencyMode, "dvlp.news:dlib:latest.release")
 project.dependencies.add(dependencyMode, "dvlp.news:dservice:latest.release")
 
